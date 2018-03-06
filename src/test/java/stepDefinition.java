@@ -24,7 +24,7 @@ public class stepDefinition {
        }
        @When("^I run the feature file$")
        public void whenStatement(){
-              System.out.println("When statement execueted successfullyy");
+              System.out.println("When statement execueted successfully");
        }
        @Then("^run should be successful$")
        public void thenStatment(){
