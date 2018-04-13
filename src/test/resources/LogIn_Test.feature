@@ -12,6 +12,6 @@ Scenario: Successful LogOut
 
 
 
- Examples:
-    | LOGIN | MOTDEPASSE |  
-    |    TYOUSFI |  HRA|  
+# Examples:
+#    | LOGIN | MOTDEPASSE |  
+#    |    TYOUSFI |  HRA|  
