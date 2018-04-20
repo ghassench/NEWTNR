@@ -5,16 +5,15 @@
  */
 
 
-
-
 import cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
 
- 
+
 @RunWith(Cucumber.class)
-@Cucumber.Options(format={"pretty","json:target/cucumber2.json"},glue={"stepDefinition2"}
+
+@Cucumber.Options(format = { "pretty",
+    "json:target/cucumberHRA.json" },tags= "ABSHP"
 		)
- 
-public class testRunner2Test {
- 
+public class AbsenceHorsPaieRunner {
+    
 }
