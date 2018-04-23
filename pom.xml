@@ -16,20 +16,28 @@
     </properties>
     
     <dependencies>
-<dependency>
-      <groupId>info.cukes</groupId>
-      <artifactId>cucumber-java</artifactId>
-      <version>1.0.2</version>
-      <scope>test</scope>
-    <type>jar</type>
-</dependency>
-<dependency>
-     <groupId>info.cukes</groupId>
-     <artifactId>cucumber-junit</artifactId>
-     <version>1.0.2</version>
-    <type>jar</type>
-    <scope>test</scope>
-</dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.0.2</version>
+            <scope>test</scope>
+            <type>jar</type>
+        </dependency>
+        
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>gherkin</artifactId>
+            <version>2.12.2</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.0.2</version>
+            <type>jar</type>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -37,11 +45,22 @@
             <scope>test</scope>
             <version>2.44.0</version>
         </dependency>
-         <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.11</version>
-    </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+
         <dependency>
             <groupId>com.opera</groupId>
             <artifactId>operadriver</artifactId>
@@ -54,11 +73,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
-       <dependency>
-  <groupId>se.redmind</groupId>
-  <artifactId>rmtest-cucumber-standalone</artifactId>
-  <version>2.8.3</version>
-</dependency>
+        <dependency>
+            <groupId>se.redmind</groupId>
+            <artifactId>rmtest-cucumber-standalone</artifactId>
+            <version>2.8.3</version>
+        </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
@@ -66,5 +85,12 @@
             <scope>test</scope>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+            <version>1.3</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 </project>
